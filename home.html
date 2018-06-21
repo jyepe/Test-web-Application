@@ -1,0 +1,48 @@
+<!DOCTYPE html>
+<html">
+
+	<head>
+		<title>Welcome</title>
+		<link rel="stylesheet" href="styles.css">
+		<script src="functions.js"></script>
+	</head>
+
+	<body>
+
+
+		<form method="post" action="test.php" onsubmit="return checkInput();">
+
+			<div align="center">
+
+				<h1 id="demo">Please enter the required information below.</h1>
+				<h4 style="color: red; margin-right: 30px;">* Required field</h4>
+
+				<fieldset>
+					<legend>Personal Information</legend>
+					<input class="textbox" type="text" name="firstName" placeholder="First Name"> <span >*</span> <br>
+					<input class="textbox" type="text" name="lastName" placeholder="Last Name"> <span>*</span> <br>
+					<input class="textbox" type="text" name="phone" placeholder="Phone number"> <span>*</span> <br>
+					<input class="textbox" type="text" name="email" placeholder="Email address"> <span>*</span> <br>
+					<input class="textbox" type="text" name="address" placeholder="Address"> <span>*</span>  <br>
+					<input class="textbox" type="text" name="city" placeholder="City"> <span>*</span> <br>
+					<input class="textbox" type="text" name="state" placeholder="State"> <span>*</span>  <br>
+					<input class="textbox" type="text" name="zip" placeholder="Zip"> <span>*</span>  <br>
+					<input class="textbox" type="text" name="country" placeholder="Country"> <span>*</span>  <br>
+				</fieldset>
+				
+				<fieldset style="margin-top: 35px">
+					<legend>Company information</legend>
+					<input class="textbox" type="text" name="compName" placeholder="Company Name"> <span>*</span>	 <br>
+					<input class="textbox" type="text" name="businessType" placeholder="Business Type"> <span>*</span>   <br>
+				</fieldset>
+
+				
+
+				<input style="margin-right: 45px" type="submit" name="submitButton" value="Submit">
+				
+			</div>
+			
+		</form>
+
+	</body>
+</html>

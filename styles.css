@@ -1,0 +1,26 @@
+div
+{
+	display: block;
+	margin-top: 100px;
+}
+
+input
+{
+	margin-top: 10px;
+}
+
+legend
+{
+	font-style: italic;
+}
+
+fieldset
+{
+	margin-left: 500px;
+	margin-right: 510px;
+}
+
+span
+{
+	color: red;
+}
